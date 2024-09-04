@@ -1,0 +1,61 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #FFFF;
+}
+
+header {
+    margin-top: 20px;
+}
+
+.logo-img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.logo {
+    font-family: 'Georgia', serif;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+.tagline {
+    font-family: 'Georgia', serif;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+}
+
+.form-label {
+    font-family: 'Georgia', serif;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+
+input.form-control {
+    font-size: 1.1em;
+    background-color: #d3d3d3;
+}
+
+#qrResult {
+    margin-top: 20px;
+}
+
+#qrResult img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: auto;
+    font-size: 0.9em;
+    background-color: #333;
+    color: white;
+}
+
+.date-time {
+    position: absolute;
+    top: 35px; /* bigger the #, the lower it moves */
+    right: 35px; /* bigger the #, the more left it moves */
+    font-size: 1rem;
+    color: #333; /* You can adjust the color as needed */
+}
